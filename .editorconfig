@@ -18,7 +18,6 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
-file_header_template = --------------------------------------------------------------------------------------------------------------------\nFilename : {fileName}\nProject: $PROJECT$ / $SOLUTION$\nAuthor : Kristian Schlikow (kristian@schlikow.de)\nCreated On : $CREATED_DAY$.$CREATED_MONTH$.$CREATED_YEAR$ $CREATED_TIME$\nLast Modified On : $CURRENT_DAY$.$CURRENT_MONTH$.$CURRENT_YEAR$ $CURRENT_TIME$\nCopyrights : Copyright (c) Kristian Schlikow $CREATED_YEAR$-$CURRENT_YEAR$, All Rights Reserved\nLicense: License is provided as described within the LICENSE file shipped with the project\nIf present, the license takes precedence over the individual notice within this file\n--------------------------------------------------------------------------------------------------------------------
 
 # ReSharper properties
 resharper_align_linq_query = true
