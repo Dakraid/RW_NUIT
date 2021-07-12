@@ -23,7 +23,7 @@ namespace NUIT.Utility.Logging
 
         public static void Write(string message, LogLevel severity, bool skipMessage = false)
         {
-            if (severity < NUITMod.Settings.LogSeverity || skipMessage)
+            if (severity < NuitMod.Settings.LogSeverity || skipMessage)
                 return;
 
             if (string.IsNullOrWhiteSpace(message))
@@ -73,7 +73,7 @@ namespace NUIT.Utility.Logging
 
         public static void Write(string format, LogLevel severity, bool skipMessage = false, params object[] args)
         {
-            if (severity < NUITMod.Settings.LogSeverity || skipMessage)
+            if (severity < NuitMod.Settings.LogSeverity || skipMessage)
                 return;
 
             if (string.IsNullOrWhiteSpace(format) || args.NullOrEmpty())

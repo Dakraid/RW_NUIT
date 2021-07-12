@@ -27,22 +27,22 @@ namespace NUIT.Harmony
             var harmony = new Harmony("net.netrve.nuit");
 
             Log.Write("Mod Support for LWM's Deep Storage disabled",
-                LogLevel.Information, !NUITMain.DeepStorageLoaded);
+                LogLevel.Information, !NuitMain.DeepStorageLoaded);
 
             Log.Write("Mod Support for [JDS] Simple Storage disabled",
-                LogLevel.Information, !NUITMain.JDSSimpleStorageLoaded);
+                LogLevel.Information, !NuitMain.JdsSimpleStorageLoaded);
 
             Log.Write("Mod Support for [JDS] Simple Storage - Refrigeration disabled",
-                LogLevel.Information, !NUITMain.JDSSimpleStorageRefLoaded);
+                LogLevel.Information, !NuitMain.JdsSimpleStorageRefLoaded);
 
             Log.Write("Mod Support for Deep Storage Plus disabled",
-                LogLevel.Information, !NUITMain.DeepStoragePlusLoaded);
+                LogLevel.Information, !NuitMain.DeepStoragePlusLoaded);
 
             Log.Write("Mod Support for Little Storage 2 disabled",
-                LogLevel.Information, !NUITMain.LittleStorage2Loaded);
+                LogLevel.Information, !NuitMain.LittleStorage2Loaded);
 
             Log.Write("Mod Support for [KV] RimFridge disabled",
-                LogLevel.Information, !NUITMain.RimFridgeLoaded);
+                LogLevel.Information, !NuitMain.RimFridgeLoaded);
 
             harmony.PatchAll();
         }

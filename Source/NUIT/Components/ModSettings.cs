@@ -17,7 +17,7 @@ namespace NUIT.Components
 
     using Verse;
 
-    public class NUITSettings : ModSettings
+    public class NuitSettings : ModSettings
     {
         public bool EnableFistFighting;
         public bool EnableMod = true;
@@ -39,13 +39,13 @@ namespace NUIT.Components
         }
     }
 
-    internal class NUITMod : Mod
+    internal class NuitMod : Mod
     {
-        public static NUITSettings Settings;
+        public static NuitSettings Settings;
 
-        public NUITMod(ModContentPack content) : base(content)
+        public NuitMod(ModContentPack content) : base(content)
         {
-            Settings = GetSettings<NUITSettings>();
+            Settings = GetSettings<NuitSettings>();
         }
 
         public override string SettingsCategory()

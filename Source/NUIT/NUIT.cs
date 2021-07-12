@@ -16,17 +16,17 @@ namespace NUIT
     using Verse;
 
     [StaticConstructorOnStartup]
-    public static class NUITMain
+    public static class NuitMain
     {
         public static bool DeepStorageLoaded =>
             ModsConfig.ActiveModsInLoadOrder.Any(m => m.Name == "LWM's Deep Storage"
                                                       || m.PackageId == "lwm.deepstorage");
 
-        public static bool JDSSimpleStorageLoaded =>
+        public static bool JdsSimpleStorageLoaded =>
             ModsConfig.ActiveModsInLoadOrder.Any(m => m.Name == "[JDS] Simple Storage"
                                                       || m.PackageId == "jangodsoul.simplestorage");
 
-        public static bool JDSSimpleStorageRefLoaded =>
+        public static bool JdsSimpleStorageRefLoaded =>
             ModsConfig.ActiveModsInLoadOrder.Any(m => m.Name == "[JDS] Simple Storage - Refrigeration"
                                                       || m.PackageId == "jangodsoul.simplestorage.ref");
 
