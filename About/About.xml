@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>NUIT - Netrve's UI Tweaks</name>
+    <author>Netrve</author>
+    <supportedVersions>
+        <li>1.1</li>
+        <li>1.2</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <packageId>netrve.nuit</packageId>
+    <description>A comprehensive overhaul of most storage related UI elements</description>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimWorld</li>
+        <li>ludeon.rimWorld.royalty</li>
+        <li>brrainz.achtung</li>
+        <li>rimfridge.kv.rw</li>
+        <li>LWM.DeepStorage</li>
+        <li>jangodsoul.simplestorage</li>
+        <li>jangodsoul.simplystorage.ref</li>
+    </loadAfter>
+</ModMetaData>

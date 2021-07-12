@@ -1,0 +1,6 @@
+[submodule "Source/References/RocketGUI"]
+	path = Source/References/RocketGUI
+	url = https://github.com/kbatbouta/RocketGUI.git
+[submodule "Source/References/LWM.DeepStorage"]
+	path = Source/References/LWM.DeepStorage
+	url = https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage
