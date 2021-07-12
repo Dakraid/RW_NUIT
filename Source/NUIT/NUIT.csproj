@@ -35,16 +35,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\References\LWM.DeepStorage\DeepStorage\LWM.DeepStorage.csproj">
-      <Project>{a5ca1745-dff4-4dde-b237-f0bb3d8b1c27}</Project>
-      <Name>LWM.DeepStorage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\References\RocketGUI\RocketGUI\RocketGUI.csproj">
-      <Project>{67dd61ba-fa05-4412-bfab-391e3f83451d}</Project>
-      <Name>RocketGUI</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Harmony\Patches.cs" />
     <Compile Include="Components\ModSettings.cs" />
@@ -53,6 +46,11 @@
     <Compile Include="Utility\Logging\Log.cs" />
     <Compile Include="Utility\Logging\LogLevel.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rd /s /q "$(SolutionDir)Source\1.2\"
+del "$(TargetDir)0Harmony.dll"
+del "$(TargetDir)HugsLib.dll"
+del "$(TargetDir)NUIT.dll.config"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -1,24 +1,10 @@
 <Project>
 	<ItemGroup>
-		<PackageReference Include="Lib.Harmony" Version="*">
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="UnlimitedHugs.Rimworld.HugsLib" Version="*">
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3056-beta">
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="Microsoft.NETCore.Platforms" Version="*">
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="*">
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		  <PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-		<PackageReference Include="TaskPubliciser" Version="*">
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		  <PrivateAssets>all</PrivateAssets>
-		</PackageReference>
+		<PackageReference Include="Lib.Harmony" Version="*"/>
+		<PackageReference Include="UnlimitedHugs.Rimworld.HugsLib" Version="*"/>
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3056-beta"/>
+		<PackageReference Include="Microsoft.NETCore.Platforms" Version="*"/>
+		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="*"/>
+		<PackageReference Include="TaskPubliciser" Version="*"/>
 	</ItemGroup>
 </Project>
