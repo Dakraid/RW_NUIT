@@ -45,7 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Logging\Log.cs" />
     <Compile Include="Utility\Logging\LogLevel.cs" />
+    <None Include="Vanilla\ITab_Storage.cs" />
+    <None Include="Vanilla\ThingFilterUI.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>rd /s /q "$(SolutionDir)Source\1.2\"
